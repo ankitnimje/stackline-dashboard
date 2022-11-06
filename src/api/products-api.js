@@ -1,7 +1,7 @@
 import defaultAxios from "axios";
 
 const axios = defaultAxios.create({
-  baseURL: "http://myjson.dit.upm.es/api/bins/3jnm",
+  baseURL: "https://myjson.dit.upm.es/api/bins/3jnm",
   headers: {
     "Content-Type": "application/json",
   },
