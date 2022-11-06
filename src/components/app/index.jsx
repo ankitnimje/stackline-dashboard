@@ -1,4 +1,6 @@
 import React from "react";
+import { Provider } from "react-redux";
+import store from "../../store";
 
 import { Container } from "./styled";
 
@@ -8,11 +10,13 @@ import DetailedAnalysis from "../ProductAnalysis/DetailedAnalysis";
 
 export default function App() {
   return (
-    <Container>
-      <Header />
-      {/* <ProductAnalysis /> */}
-      <DetailedAnalysis />
-    </Container>
+    <Provider store={store}>
+      <Container>
+        <Header />
+        {/* <ProductAnalysis /> */}
+        <DetailedAnalysis />
+      </Container>
+    </Provider>
   );
 }
 
