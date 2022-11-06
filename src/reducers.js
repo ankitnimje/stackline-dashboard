@@ -2,9 +2,9 @@
 import { combineReducers } from "redux";
 
 // Reducers
-import todo from "./reducers/products-reducers";
+import product from "./reducers/products-reducers";
 
 export default combineReducers({
-  todo,
+  product,
   // Here you can registering another reducers.
 });

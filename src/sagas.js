@@ -1,11 +1,9 @@
 import { spawn } from "redux-saga/effects";
 
 // Sagas
-import todoSaga from "./sagas/todo-sagas";
+import productSaga from "./sagas/product-sagas";
 
 // Export the root saga
 export default function* rootSaga() {
-  console.log("Hello From Redux-Saga!");
-
-  yield spawn(todoSaga);
+  yield spawn(productSaga);
 }

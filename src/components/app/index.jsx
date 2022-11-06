@@ -5,7 +5,6 @@ import store from "../../store";
 import { Container } from "./styled";
 
 import Header from "../Header";
-import ProductAnalysis from "../ProductAnalysis";
 import DetailedAnalysis from "../ProductAnalysis/DetailedAnalysis";
 
 export default function App() {
@@ -13,11 +12,8 @@ export default function App() {
     <Provider store={store}>
       <Container>
         <Header />
-        {/* <ProductAnalysis /> */}
         <DetailedAnalysis />
       </Container>
     </Provider>
   );
 }
-
-// https://api.jsonserve.com/og_duG

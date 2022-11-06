@@ -7,7 +7,7 @@ const axios = defaultAxios.create({
   },
 });
 
-// Get All Todos
+// Get first product
 export const getProduct = async () => {
   try {
     const product = await axios.get();

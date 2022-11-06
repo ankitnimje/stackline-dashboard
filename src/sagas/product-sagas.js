@@ -13,7 +13,7 @@ import { getProduct } from "../api/products-api";
 
 // Here's the unique part, generator function*, function with asterisk(*)
 
-// Get Todos
+// Get products
 function* getProducts() {
   yield put({ type: SET_LOADING });
 
@@ -23,6 +23,6 @@ function* getProducts() {
 }
 
 // Export the saga (todo-saga)
-export default function* todoSaga() {
+export default function* productSaga() {
   yield takeEvery(GET_PRODUCT_REQUESTED, getProducts);
 }

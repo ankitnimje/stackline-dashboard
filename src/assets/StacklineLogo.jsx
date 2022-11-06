@@ -7,12 +7,8 @@ function StacklineLogo({ height = "50px", width = "150px", fill = "#E5E4E2	" }) 
     <svg
       id="Layer_1"
       xmlns="http://www.w3.org/2000/svg"
-      //   x="0px"
-      //   y="0px"
       viewBox="0 0 3415 597.8"
       xmlSpace="preserve"
-      //   enableBackground="new 0 0 3415 597.8"
-      //   {...props}
       height={height}
       width={width}
       fill={fill}

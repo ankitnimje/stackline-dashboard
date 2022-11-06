@@ -16,7 +16,7 @@ export default (state = initialState, { type, payload }) => {
         ...state,
         loading: true,
       };
-    // Get todos
+    // Get product
     case GET_PRODUCT:
       return {
         ...state,
